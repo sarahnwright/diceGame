@@ -4,13 +4,17 @@
         <meta charset="UTF-8">
         <title>RollingDice</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="app.js"></script>
     </head>
     <body>
         <h1>Get ready to roll!</h1>
 
         <h2>Player 1</h2>
 
-        <p><button>Roll</button></p>
-        
+        <div class="diceBox">
+            <input type="button" class="button" value="Roll" onclick="getRandom();"></input>
+            <div id="showImage"></div>
+        </div>
+
     </body>
 </html>
