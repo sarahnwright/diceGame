@@ -7,5 +7,8 @@ function getRandom () {
         else if (randomNumber == 4) showImage.innerHTML = '<img class="image" src="diceFour.png">';
         else if (randomNumber == 5) showImage.innerHTML = '<img class="image" src="diceFive.png">';
         else  showImage.innerHTML = '<img class="image" src="diceSix.png">';
+
+        document.getElementById("number") .innerHTML = randomNumber
 }
+
 
