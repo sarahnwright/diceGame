@@ -1,5 +1,3 @@
-let resultTotal = document.getElementById("resultTotal");
-
 function getRandom () {
     let showImage = document.getElementById("showImage");
     var randomNumber = Math.floor(Math.random() *6) +1;
@@ -49,6 +47,3 @@ function updateButtons() {
 function restartGame() {
     document.location.reload();
 }
-
-
-
