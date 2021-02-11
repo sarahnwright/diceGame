@@ -7,16 +7,21 @@
         <script src="app.js"></script>
     </head>
     <body>
-        <h1>Get ready to roll!</h1>
+        <h1>Get ready to Roll..</h1>
+        <h1>Roll 20+ to win! But Roll 1 and you lose!</h1>
 
         <h2>Player 1</h2>
 
         <div class="diceBox">
-            <input type="button" class="button" value="Roll" onclick="getRandom();"></input>
+            <input id="rollButton" type="button" class="button" value="Roll" onclick="getRandom();"></input>
             <div id="showImage"></div>
         </div>
 
-        <div id="number"></div>
-
+        <div id="number"> </div>
+        
+        <div class="endGame">
+            <div id="message"></div>
+            <input id="restartButton" type="button" class="button" value="Restart" onclick="restartGame();" hidden></input>
+        </div>
     </body>
 </html>
